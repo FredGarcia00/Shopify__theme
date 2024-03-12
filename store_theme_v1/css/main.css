@@ -75,6 +75,7 @@ header {
   justify-content: space-between;
   margin-top: 2.5em;
   margin-bottom: 1.5em;
+  position: relative;
 }
 header .header__logo {
   font-size: 2.2rem;
@@ -82,9 +83,22 @@ header .header__logo {
 }
 header .header__hide--mobile {
   display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  background: #D9D9D9;
+  padding: 3.5em 3.9em 0 13.2em;
+  text-align: right;
+}
+header .header__hide--mobile .close {
+  margin-bottom: 5.1em;
 }
 header .header__hide--mobile ul li a {
-  padding-left: 2.4em;
+  font-size: 2.5rem;
+  padding-bottom: 0.92em;
+  color: #000;
 }
 header .header__icons {
   display: flex;

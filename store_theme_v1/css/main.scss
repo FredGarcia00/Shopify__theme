@@ -1,12 +1,16 @@
 @import 'reset';
 @import 'global';
 
+$tablet: 768px;
+$desktop: 1300px;
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 2.5em;
     margin-bottom: 1.5em;
+    position: relative;
 
     .header__logo {
         font-size: 2.2rem;
@@ -15,9 +19,24 @@ header {
 
     .header__hide--mobile {
         display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        height: 100vh;
+        background: #D9D9D9;
+        padding: 3.5em 3.9em 0 13.2em;
+        text-align: right;
+        
+        .close {
+            margin-bottom: 5.1em;
+        }
 
         ul li a {
-            padding-left: 2.4em;
+            font-size: 2.5rem;
+            padding-bottom: .92em;
+            color: #000;
+
         }
     }
 
@@ -211,6 +230,7 @@ footer {
 
     .footer__socials {
         margin-top: 1em;
+        
     }
 
     form input{
