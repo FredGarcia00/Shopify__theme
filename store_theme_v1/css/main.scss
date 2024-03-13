@@ -18,13 +18,14 @@ header {
     }
 
     .header__hide--mobile {
-        display: none;
+        transform: translateX(100%);
         position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
         height: 100vh;
         background: #D9D9D9;
+        transition: .5s ease-in-out;
 
         padding: 3.5em 3.9em 0 13.2em;
         text-align: right;

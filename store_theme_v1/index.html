@@ -217,6 +217,22 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        let hamburgerIcon = document.querySelector('.menu__icon');
+        let mobileMenu = document.querySelector('.header__hide--mobile');
+        let closeIcon = document.querySelector('.close');
+
+        function openMenu() {
+            mobileMenu.style.transform = "translateX(0)";
+        }
+        function closeMenu() {
+            mobileMenu.style.transform = "translateX(100%)";
+        }
+
+        hamburgerIcon.addEventListener('click', openMenu);
+        closeIcon.addEventListener('click', closeMenu);
+    </script>
 </body>
 
 </html>
