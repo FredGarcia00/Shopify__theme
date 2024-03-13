@@ -78,7 +78,7 @@ header {
   position: relative;
 }
 header .header__logo {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 header .header__hide--mobile {
@@ -105,9 +105,23 @@ header .header__icons {
   align-items: center;
 }
 header .header__icons svg {
-  width: 24px;
-  height: 24px;
   padding-left: 1.2em;
+}
+header .header__icons .menu__icon {
+  width: 28px;
+  height: 28px;
+}
+header .header__icons .shopping {
+  width: 14px;
+  height: 16px;
+}
+header .header__icons .account {
+  width: 12px;
+  height: 14px;
+}
+header .header__icons .search {
+  width: 18px;
+  height: 18px;
 }
 header .header__icons .menu__icon {
   width: 32px;

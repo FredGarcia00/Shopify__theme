@@ -13,7 +13,7 @@ header {
     position: relative;
 
     .header__logo {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         font-weight: bold;
     }
 
@@ -25,6 +25,7 @@ header {
         bottom: 0;
         height: 100vh;
         background: #D9D9D9;
+
         padding: 3.5em 3.9em 0 13.2em;
         text-align: right;
         
@@ -45,9 +46,27 @@ header {
         align-items: center;
 
         svg {
-            width: 24px;
-            height: 24px;
             padding-left: 1.2em;
+        }
+
+        .menu__icon {
+            width: 28px;
+            height: 28px;
+        }
+
+        .shopping {
+            width: 14px;
+            height: 16px;
+        }
+
+        .account {
+            width: 12px;
+            height: 14px;
+        }
+        
+        .search {
+            width: 18px;
+            height: 18px;
         }
 
         .menu__icon {
