@@ -89,8 +89,8 @@ header .header__hide--mobile {
   bottom: 0;
   height: 100vh;
   background: #D9D9D9;
-  transition: 0.5s ease-in-out;
-  padding: 3.5em 3.9em 0 13.2em;
+  transition: 0.3s ease-in-out;
+  padding: 3.5em 4.8em 0 13.2em;
   text-align: right;
 }
 header .header__hide--mobile .close {
@@ -217,7 +217,7 @@ header .header__icons .menu__icon {
 }
 
 footer {
-  margin-top: 17.3em;
+  margin-top: 10.8em;
   background: #1E1E1E;
   color: #fff;
   overflow: hidden;
