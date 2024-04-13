@@ -9,9 +9,18 @@ body {
 }
 
 a {
+  position: relative;
   text-decoration: none;
+  color: #000;
 }
 
 .container {
-  padding: 0 4em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=global.css.map */
